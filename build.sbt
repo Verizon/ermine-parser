@@ -2,7 +2,7 @@ name := "ermine-parser"
 
 organization in Global := "oncue.ermine"
 
-crossScalaVersions := Seq("2.11.6", "2.10.5")
+crossScalaVersions := Seq("2.11.8", "2.10.5")
 
 scalaVersion := crossScalaVersions.value.head
 
@@ -36,7 +36,7 @@ parallelExecution := true
 
 javacOptions += "-Xlint"
 
-val scalazVersion = "7.1.2"
+val scalazVersion = "7.2.2"
 
 libraryDependencies ++= Seq(
   "org.scalaz" %% "scalaz-core" % scalazVersion,
