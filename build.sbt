@@ -24,7 +24,7 @@ addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.5")
 
 javacOptions += "-Xlint"
 
-val catsVersion = "1.0.0"
+val catsVersion = "1.0.1"
 
 libraryDependencies ++= Seq(
   "org.typelevel" %% "cats-core" % catsVersion,
